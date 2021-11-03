@@ -46,7 +46,7 @@ var q = MathFunctions.Add(10, 20);
 
 Console.WriteLine(q);
 
-var x = -25.0;
+var x = 25.0;
 SqrtComputation.Tolerance = 0.0001;
 
 try
