@@ -1,4 +1,6 @@
-﻿namespace ShapeLib
+﻿using BaseLib;
+
+namespace ShapeLib
 {
     public class Triangle : Shape
     {
