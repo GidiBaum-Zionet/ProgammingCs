@@ -21,7 +21,8 @@ namespace ShapeLib
 
         public override void Draw(DrawContext dc)
         {
-            dc.DrawLineLoop(Points);
+            //dc.DrawLineLoop(Points);
+            dc.DrawPolygon(Points);
         }
     }
 }

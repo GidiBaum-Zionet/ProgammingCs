@@ -28,7 +28,10 @@ namespace DrawWinApp
             //    Radius = 0.25
             //};
 
-            _Shape = new Triangle(vec2(-0.25, -0.25), vec2(-0.25, 0.25), vec2(0.25, 0.25) )
+            _Shape = new Triangle(
+                vec2(-0.15, -0.25), 
+                vec2(-0.25, 0.25), 
+                vec2(0.25, 0.25) )
             {
                 Center = vec2(0, 0),
             };
@@ -50,10 +53,14 @@ namespace DrawWinApp
 
             //dc.DrawLines(vec2(0, 0), vec2(0.5, -0.5));
 
-
             dc.LineColor = Color.BlueViolet;
+            dc.FillColor = Color.BlueViolet;
             dc.LineWidth = 5;
             _Shape.Draw(dc);
+
+            dc.PointSize = 37;
+            dc.FillColor = Color.Red;
+            dc.DrawPoints(vec2(0, 0), vec2(0.5, -0.5));
         }
     }
 }
