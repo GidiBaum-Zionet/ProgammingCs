@@ -1,4 +1,5 @@
-﻿using BaseLib;
+﻿using Base.WinForms;
+using BaseLib;
 
 namespace ShapeLib
 {
@@ -18,9 +19,9 @@ namespace ShapeLib
             Points[2] = p2;
         }
 
-        public override void Draw()
+        public override void Draw(DrawContext dc)
         {
-            
+            dc.DrawLineLoop(Points);
         }
     }
 }

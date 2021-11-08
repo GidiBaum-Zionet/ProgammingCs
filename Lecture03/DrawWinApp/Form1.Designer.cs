@@ -29,27 +29,28 @@ namespace DrawWinApp
         /// </summary>
         private void InitializeComponent()
         {
-            this.drawControl1 = new Base.WinForms.DrawControl();
+            this.drawControl = new Base.WinForms.DrawControl();
             this.SuspendLayout();
             // 
-            // drawControl1
+            // drawControl
             // 
-            this.drawControl1.BackColor = System.Drawing.Color.White;
-            this.drawControl1.Location = new System.Drawing.Point(51, 25);
-            this.drawControl1.MaxX = 1F;
-            this.drawControl1.MaxY = 1F;
-            this.drawControl1.MinX = -1F;
-            this.drawControl1.MinY = -1F;
-            this.drawControl1.Name = "drawControl1";
-            this.drawControl1.Size = new System.Drawing.Size(707, 378);
-            this.drawControl1.TabIndex = 0;
+            this.drawControl.BackColor = System.Drawing.Color.White;
+            this.drawControl.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.drawControl.Location = new System.Drawing.Point(0, 0);
+            this.drawControl.MaxX = 1F;
+            this.drawControl.MaxY = 1F;
+            this.drawControl.MinX = -1F;
+            this.drawControl.MinY = -1F;
+            this.drawControl.Name = "drawControl";
+            this.drawControl.Size = new System.Drawing.Size(800, 450);
+            this.drawControl.TabIndex = 0;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.drawControl1);
+            this.Controls.Add(this.drawControl);
             this.Name = "Form1";
             this.Text = "Form1";
             this.ResumeLayout(false);
@@ -58,7 +59,7 @@ namespace DrawWinApp
 
         #endregion
 
-        private Base.WinForms.DrawControl drawControl1;
+        private Base.WinForms.DrawControl drawControl;
     }
 }
 

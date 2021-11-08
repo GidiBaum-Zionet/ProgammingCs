@@ -9,6 +9,7 @@
   <ItemGroup>
     <ProjectReference Include="..\..\Base\Base.WinForms\Base.WinForms.csproj" />
     <ProjectReference Include="..\..\Base\BaseLib\BaseLib.csproj" />
+    <ProjectReference Include="..\..\Base\ShapeLib\ShapeLib.csproj" />
   </ItemGroup>
 
 </Project>
