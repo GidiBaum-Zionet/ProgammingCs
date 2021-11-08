@@ -3,7 +3,7 @@
     <PropertyGroup>
         <TargetFramework>net5.0-windows</TargetFramework>
         <UseWindowsForms>true</UseWindowsForms>
-fv8
+
     </PropertyGroup>
 
     <ItemGroup>
