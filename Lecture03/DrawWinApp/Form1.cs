@@ -36,13 +36,15 @@ namespace DrawWinApp
             //    Center = vec2(0, 0),
             //};
 
-            _Shape = new ShapeLib.Rectangle
-            {
-                Width = 0.5,
-                Height = 0.5,
-                Center = vec2(0.2, 0.3)
-            };
+            //_Shape = new ShapeLib.Rectangle()
+            //{
+            //    Width = 0.5,
+            //    Height = 0.5,
+            //    Center = vec2(0.2, 0.3)
+            //};
 
+
+            _Shape = new ShapeLib.Rectangle(0.5, 0.25);
 
         }
 
