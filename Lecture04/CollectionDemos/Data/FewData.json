@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "first_name": "Malissia",
+    "last_name": "Jostan",
+    "email": "mjostan0@hugedomains.com",
+    "gender": "Bigender",
+    "ip_address": "11.132.104.211"
+  },
+  {
+    "id": 2,
+    "first_name": "Yvon",
+    "last_name": "Standfield",
+    "email": "ystandfield1@exblog.jp",
+    "gender": "Genderqueer",
+    "ip_address": "237.81.137.4"
+  },
+  {
+    "id": 3,
+    "first_name": "Bobbette",
+    "last_name": "Prene",
+    "email": "bprene2@narod.ru",
+    "gender": "Bigender",
+    "ip_address": "27.55.177.184"
+  }
+]

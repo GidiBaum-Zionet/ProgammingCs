@@ -27,6 +27,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Base.WinForms", "Base\Base.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShapeLib", "Base\ShapeLib\ShapeLib.csproj", "{13AADD71-4C20-4E7C-A919-D96735A2D3F0}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lecture04", "Lecture04", "{3BE6F9F8-0DE9-4BC4-BFF5-76B51228A6BF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CollectionDemos", "Lecture04\CollectionDemos\CollectionDemos.csproj", "{829EE231-1A5D-4BB7-8522-3F3357CD9ADE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -65,6 +69,10 @@ Global
 		{13AADD71-4C20-4E7C-A919-D96735A2D3F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{13AADD71-4C20-4E7C-A919-D96735A2D3F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{13AADD71-4C20-4E7C-A919-D96735A2D3F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{829EE231-1A5D-4BB7-8522-3F3357CD9ADE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{829EE231-1A5D-4BB7-8522-3F3357CD9ADE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{829EE231-1A5D-4BB7-8522-3F3357CD9ADE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{829EE231-1A5D-4BB7-8522-3F3357CD9ADE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -78,6 +86,7 @@ Global
 		{90C4A4BD-D7BB-4189-A0AC-40C8AC675F2F} = {A3837244-F510-4B12-829B-E49D1B3948CC}
 		{26F53425-D330-457B-AE30-82AA5DC57B84} = {A3837244-F510-4B12-829B-E49D1B3948CC}
 		{13AADD71-4C20-4E7C-A919-D96735A2D3F0} = {A3837244-F510-4B12-829B-E49D1B3948CC}
+		{829EE231-1A5D-4BB7-8522-3F3357CD9ADE} = {3BE6F9F8-0DE9-4BC4-BFF5-76B51228A6BF}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {3C4B619D-1501-40ED-AE4F-735E99EAEF91}
