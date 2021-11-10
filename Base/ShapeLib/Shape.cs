@@ -9,7 +9,7 @@ namespace ShapeLib
     {
         public Color Color { get; set; }
 
-        public Vector2d Center { get; set; }
+        public Vector2d Center { get; set; } = new();
 
         public abstract void Draw(DrawContext dc);
     }

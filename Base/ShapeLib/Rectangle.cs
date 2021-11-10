@@ -1,4 +1,5 @@
 ﻿using Base.WinForms;
+using static BaseLib.MathFunctions;
 
 namespace ShapeLib
 {
@@ -9,7 +10,15 @@ namespace ShapeLib
 
         public override void Draw(DrawContext dc)
         {
-            
+            var w2 = Width / 2;
+            var h2 = Height / 2;
+
+            dc.DrawPolygon(
+                vec2(Center.X - w2, Center.Y - h2),
+                vec2(Center.X + w2, Center.Y - h2),
+                vec2(Center.X + w2, Center.Y + h2),
+                vec2(Center.X - w2, Center.Y + h2)
+            );
         }
     }
 }
