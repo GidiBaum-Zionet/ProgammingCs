@@ -33,6 +33,32 @@ namespace CollectionDemos
                 Console.WriteLine(p);
             }
 
+            //---------------------------------------------------
+            Console.WriteLine();
+            Console.WriteLine("Names:");
+            Console.WriteLine();
+
+            //var names = people.Select(GetName);
+            var names = people
+                .Select(p => $"{p.last_name} {p.first_name}");
+
+            //var names = people
+            //    .Select(p =>
+            //    {
+            //        return $"{p.last_name} {p.first_name}";
+            //    });
+
+
+            foreach (var name in names.Skip(10).Take(10))
+            {
+                Console.WriteLine(name);
+            }
+
         }
+
+        //static string GetName(Person p)
+        //{
+        //    return $"Name: F:{p.last_name} L:{p.first_name}";
+        //}
     }
 }
